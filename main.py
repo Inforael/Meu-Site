@@ -9,24 +9,7 @@ import numpy as np
 from datetime import date
 import re
 
-#caminho dos arquivos 
-# FROM_PATH_SOURCE=r"/prd-wdu-sba-001/prd-wdu-sba-kcc/fia/ftp_fia"
 
-NEW_FROM_PATH_SOURCE = "C:\Bko\Python\Estudo\MV\Caixa de Ferramenta\Learning"
-
-#caminho para pasta onde os arquivos convertidos serao armazenados
-# TO_PATH_CSV=r"/prd-wdu-sba-001/prd-wdu-sba-kcc/fia/csv_fia"
-
-# print(os.listdir(NEW_FROM_PATH_SOURCE))
-# print([''.join([FROM_PATH_SOURCE,'/',f]))
-
-# [''.join([FROM_PATH_SOURCE,'/',f]) for f in os.listdir(FROM_PATH_SOURCE) \
-# if re.match(r'sellout|kimberly', f,  re.IGNORECASE)]
-
-myTuple = [str(os.listdir(NEW_FROM_PATH_SOURCE)), "Vicky"]
-# out: C:\Bko\Python\Estudo\MV\Caixa de Ferramenta\LearningVicky
-x = ''.join(myTuple) 
-print(x)
 
 
 
